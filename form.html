@@ -201,37 +201,37 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     </div>
   </nav>
   
-<form action="form.php" method="POST">  
+<form action="insert.php" method="POST">  
   <div class="container">  
   <center>  <h1>Enter Details </h1> </center>  
   <hr>  
   <label> <b> School Name:</b></label>   
-<input type="text" name="Name" placeholder= "Name" size="15" required />   
+<input type="text" name="Schoolname" placeholder= "Name" size="15" required />   
 <label> <b>School Id:</b>  </label>   
 
-<input type="text" name="Rollnumber" placeholder="School id" size="15" required />   
+<input type="text" name="Schoolid" placeholder="School id" size="15" required />   
 <label><b>Year of Construction :</b></label>
-<input type="date" placeholder="year">
+<input type="date" name="Year" placeholder="year">
 <label><b>Area :</b></label>
-<input type="number" placeholder="in acre" size="15"> 
+<input type="number" name="Area" placeholder="in acre" size="15"> 
 <label><b>No of rooms :</b></label>
-<input type="number" placeholder="No.of.rooms" size="15"> 
+<input type="number" name="rooms" placeholder="No.of.rooms" size="15"> 
 <label><b>Room size :</b></label>
-<input type="number" placeholder="in meter" size="15"> 
+<input type="number" placeholder="in meter" name="Labs" size="15"> 
 <label><b>No of labs :</b></label>
 <input type="number" placeholder="No.of.labs" size="15"> 
 <label><b>Capacity :</b></label>
-<input type="number" placeholder="No.of.students" size="15"> 
+<input type="number" name="Capacity" placeholder="No.of.students" size="15"> 
 <label for="email"><b>Email</b></label>  
- <input type="text" placeholder="Enter Email" name="email" required>  
+ <input type="text" placeholder="Enter Email" name="Email" required>  
  <label> <b> Whatsapp no:</b> </label>    
- <input type="text" name="phone" placeholder="Phone no." size="10" required/>    
+ <input type="text" name="Phone" placeholder="Phone no." size="10" required/>    
 <div>  
 <label>   
 <b> Select State : </b>
 </label>   
   
-<select class="state">  
+<select class="state" name="state">  
 <option value="Course">Select State</option> 
 <option value="Andra Pradesh">Andra Pradesh</option>
                         <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -316,7 +316,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     <label for="email"><b>Email</b></label>  
  <input type="text" placeholder="Enter School Email" name="email" required>  
  <label> <b> Contact no:</b> </label>    
- <input type="text" name="phone" placeholder="Phone no." size="10" required/>    
+ <input type="text" name="whats" placeholder="Phone no." size="10" required/>    
  <label><b>Declaration :</b></label>
     
         <input type="file" name="fileToUpload" id="fileToUpload" class="state" border:none>
